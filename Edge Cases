@@ -1,0 +1,74 @@
+COMMON EDGE CASES:
+
+Here’s a comprehensive list of common edge cases to think about during coding interviews. Keep this list handy for reference!
+
+1. Input Validation	
+	•	Empty Input: What happens if the input is empty? (e.g., empty string, array, or object)	
+	•	Null or Undefined Input: How does the function handle null or undefined?	
+	•	Invalid Input Type: What if the input is of an unexpected type? (e.g., string instead of array)
+	•	Mixed Input Types: Does the function handle elements of different types in collections (e.g., [1, "a", true])?
+
+2. Boundary Cases
+	•	Minimum Input Size: What happens with the smallest valid input? (e.g., single element in an array
+	•	Maximum Input Size: Does the function handle extremely large inputs efficiently
+	•	Single Element: How does the function behave with one element (e.g., [1])?
+
+3. Content of the Input
+	•	Homogeneous Data: Is the input uniform (e.g., all numbers, all strings)
+	•	Heterogeneous Data: Does the input include different types or unexpected values?
+	•	Duplicates: Does the function handle duplicate elements correctly?
+
+4. Sorted or Unsorted Data
+	•	Sorted Input: Does the function perform optimally with sorted data (if applicable)?
+	•	Unsorted Input: Can the function handle unordered data properly?
+
+5. Data Types
+	•	Negative Numbers: Does the function handle negative values appropriately?
+	•	Zero: How does it behave with zeros?
+	•	Decimals/Floating-Point Numbers: Are floating-point calculations handled accurately?
+	•	Special Characters: Does it handle non-alphanumeric characters if input is a string?
+
+6. Logical Edge Cases
+	•	No Solution Exists: How does the function behave if there’s no valid solution?	
+	•	Multiple Solutions: Does it return the correct one if multiple valid answers exist?
+	•	Edge Behavior: How does the function behave at the boundaries of valid input? (e.g., inclusive vs. exclusive ranges)
+
+7. Performance
+•	Scalability: How does the function perform with a large number of elements?
+	•	Efficiency: Is the function time-optimized for the given constraints?
+	•	Memory Usage: Does the function use memory efficiently for large inputs?
+
+8. Algorithm-Specific Edge Cases
+	•	Recursion Depth: Does the function handle deep recursion without exceeding the call stack?
+	•	Division by Zero: Does it prevent dividing by zero or other invalid operations?
+	•	Overflow/Underflow: Can the function handle very large or very small numbers?
+
+9. Domain-Specific Cases
+	•	Geometric Problems: Handle degenerate cases like collinear points or overlapping shapes.
+	•	Graphs/Trees: Handle disconnected graphs, cycles, and single-node trees.
+	•	String Problems: Consider palindromes, case sensitivity, and empty strings.
+
+10. Output Validation
+	•	Correct Format: Is the output in the correct format (e.g., array, string, object)?
+	•	Order of Output: Does the order of elements in the output matter?
+	•	Error Messages: Are errors handled gracefully with appropriate feedback?
+
+Quick Reference Checklist
+	1.	Input Validation: Empty, null, invalid types.
+	2.	Boundary Cases: Min/max input size, single element.
+	3.	Content: Duplicates, negative numbers, zeros, special characters.
+	4.	Sorting: Sorted vs. unsorted data.
+	5.	Logical Cases: No solution, multiple solutions.
+	6.	Performance: Scalability, recursion depth, memory.
+	7.	Algorithm-Specific: Division by zero, overflow, special geometry cases.
+	8.	Output: Format, order, errors.
+
+Example in Action
+
+If solving “Find the maximum number in an array”, consider:
+	•	Empty array → Should return an error or default value.
+	•	Single element array → Should return that element.
+	•	Negative numbers → Ensure it finds the largest even if all are negative.
+	•	Large dataset → Ensure it handles performance well.
+
+This systematic approach helps you anticipate and cover edge cases in interviews!
